@@ -1,11 +1,11 @@
-## KDAG_CampusPulse_Data_Ninjas_Human_Face_Identification
+# KDAG_CampusPulse_Data_Ninjas_Human_Face_Identification
 
 The project is a submission to the event "Campus Pulse" organised by KDAG, IIT Kharagpur.
 It attempts to solve the problem of long library queues at the Central Library , IIT Kharagpur bu automating the log entry of student details and their laptop brand name.
-# Overview
+## Overview
 This model uses a CNN based face-detection and identification algorithm and subsequent logging, and a laptop brand logo identifier to speeden the entry and exit process
 
-# Implementation Approach and Highlights
+## Implementation Approach and Highlights
 
 The model achieves face identification after training on a single image for each training class(students in our case), thus byepassing any possible hindrance due to availability of a single image per student in the Institute database
 
