@@ -1,4 +1,4 @@
-# KDAG_CampusPulse_Data_Ninjas_Human_Face_Identification
+## KDAG_CampusPulse_Data_Ninjas_Human_Face_Identification
 
 The project is a submission to the event "Campus Pulse" organised by KDAG, IIT Kharagpur.
 It attempts to solve the problem of long library queues at the Central Library , IIT Kharagpur bu automating the log entry of student details and their laptop brand name.
