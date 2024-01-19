@@ -33,12 +33,21 @@ def entrylog(name):
     with open('Log.csv', 'r+') as f:
         myDataList = f.readlines()
 
-
         nameList = []
-        for line in myDataList:
-            entry = line.split(',')
-            nameList.append(entry[0])
+        if(len(myDataList)==0):
+            now = datetime.now()
+            dtString = now.strftime('%H:%M:%S')
+            f.writelines(f'\n{name},{dtString}')
+        else:
+            for line in myDataList:
+                
+                entry = line.split(',')
+                nameList.append(entry[0])
+
+                
             if name not in nameList:
+                print(name)
+                print(nameList)
                 now = datetime.now()
                 dtString = now.strftime('%H:%M:%S')
                 f.writelines(f'\n{name},{dtString}')
